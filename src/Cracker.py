@@ -12,9 +12,9 @@ from src.httpResponse import httpResponse as httpResponse
 class Cracker():
 	
     def __init__(self, sys_fileName:str):
-		self.fileName = sys_fileName
-		self.linesOfFile = []
-		self.map = defaultdict(list)
+        self.fileName = sys_fileName
+        self.linesOfFile = []
+        self.map = defaultdict(list)
     
     def collectLinesOfFile(self):
         try: 
