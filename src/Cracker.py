@@ -1,9 +1,9 @@
-# IdentifyHacker.py
+# Cracker.py
 
 # Josue Lopez
 
-""" This module is intended to receive a file name and parse through a log of HTTP request, 
-in order to idenitify if a hacker attempted to use an SQL injection to hack a database.
+""" This module is intended to receive a file name and parse through a log of HTTP requests, 
+in order to idenitify if a hacker has attempted to use an SQL injection to hack a database.
 """
 
 from collections import defaultdict
